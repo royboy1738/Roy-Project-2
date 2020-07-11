@@ -1,0 +1,137 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title> Roy's Stock Watch </title>
+		<style>
+			body {background-color:green;}
+			ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+		</style>
+	</head>
+
+	<!-- This is a comment -->
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html"> Home </a></li>
+				<li><a class="active" href="roycurrent.html"> Current Picks </a></li>
+				<li><a href="roynews.html"> News </a></li>
+			</ul>
+		</nav>
+		<hr>
+		<h1> Top Picks </h1>
+		<table>
+<tr>
+	<th>Stock</th>
+	<th>Ticker</th>
+	<th>Industry</th>
+	<th>Thesis</th>
+</tr>
+<tr>
+	<th><div class="dropdown">
+  <span>Microsoft</span>
+  <div class="dropdown-content">
+  <p><a href="https://stockcharts.com/h-sc/ui?s=msft"> Graph </a></p>
+  </div>
+</div></th>
+	<th>MSFT</th>
+	<th>Technology</th>
+	<th>Microsoft has earnings coming up soon, which should generate a considerable amount of hype</th>
+</tr>
+<tr>
+	<th><div class="dropdown">
+  <span>Peleton</span>
+  <div class="dropdown-content">
+  <p><a href="https://stockcharts.com/h-sc/ui?s=pton"> Graph </a></p>
+  </div>
+</div></th>
+	<th>PTON</th>
+	<th>Recreation</th>
+	<th>More people are shifting to at home workouts which should boost the company</th>
+</tr>
+<tr>
+	<th><div class="dropdown">
+  <span>Match</span>
+  <div class="dropdown-content">
+  <p><a href="https://stockcharts.com/h-sc/ui?s=mtch"> Graph </a></p>
+  </div>
+</div></th>
+	<th>MTCH</th>
+	<th>Recreation</th>
+	<th>Due to quarantine the dating scene has shifted to online, and thus apps like Tinder should see a considerable boost</th>
+</tr>
+<tr>
+	<th><div class="dropdown">
+  <span>Shopify</span>
+  <div class="dropdown-content">
+  <p><a href="https://stockcharts.com/h-sc/ui?s=SHOP"> Graph </a></p>
+  </div>
+</div></th>
+	<th>SHOP</th>
+	<th>E-commerce</th>
+	<th>The future of E-commerce is bright and the Corona-virus has definitely expediated growth</th>
+</tr>
+</table>
+
+	</header>
+</body>
+
+</html>
